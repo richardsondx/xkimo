@@ -1,7 +1,7 @@
 Xkimo : Railsview Installer & Theme Handler
 ==========================================
 
-Visit Railsview at: `www.railsview.com`
+Visit Railsview at: [`www.railsview.com`](http://www.railsview.com)
 
 To Install add the gem to your gemfile or type:
 
