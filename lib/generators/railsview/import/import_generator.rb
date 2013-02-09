@@ -7,8 +7,8 @@ module Railsview
     
     
       def install_theme 
-      		if yes?("This theme is mean to be installed on a brand new app. If this is a brand new app? yes or no?")
-      			if yes?("Install #{file_name} theme into your app #{Rails.application.class.parent_name}?")
+      		if yes?("Is this a brand new app? (yes/no)...")
+      			if yes?("Install #{file_name} theme into your app #{Rails.application.class.parent_name}? (yes/no)...")
       				directory "#{Rails.root}/lib/railsview/themes/#{file_name}/application/", "#{Rails.root}"
       				contents = File.read("#{Rails.root}/lib/railsview/themes/#{file_name}/ROUTES")
       				route(contents)
