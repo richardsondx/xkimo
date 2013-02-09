@@ -1,5 +1,7 @@
-Xkimo : Railsview Installer & Theme Handler
+Xkimo : Add A Vest To Your App
 ==========================================
+
+A Railsview Installer & Theme Handler
 
 Visit Railsview at: [`www.railsview.com`](http://www.railsview.com)
 
